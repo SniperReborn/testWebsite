@@ -1,0 +1,4 @@
+baseURL = 'https://NFRcomehome.org/'
+languageCode = 'en-us'
+title = 'New Fizzer Republic'
+theme = 'ananke'
