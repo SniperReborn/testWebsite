@@ -2,3 +2,6 @@ baseURL = 'https://NFRcomehome.org/'
 languageCode = 'en-us'
 title = 'New Fizzer Republic'
 theme = 'ananke'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
