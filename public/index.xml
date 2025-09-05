@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>New Fizzer Republic</title>
+    <title>Taiga Momose</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on New Fizzer Republic</description>
+    <description>Recent content on Taiga Momose</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Sep 2025 19:49:04 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 19:49:04 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My Second Post</title>
+      <link>http://localhost:1313/blog/my-second-post/</link>
+      <pubDate>Wed, 03 Sep 2025 19:49:04 -0700</pubDate>
+      <guid>http://localhost:1313/blog/my-second-post/</guid>
+      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;hi-guys-i-like-dogs&#34;&gt;Hi guys I like dogs.&lt;/h2&gt;</description>
+    </item>
+    <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/blog/my-first-post/</link>
       <pubDate>Tue, 02 Sep 2025 19:49:04 -0700</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;## Introduction&lt;/p&gt;&#xA;&lt;p&gt;This is **bold** text, and this is *emphasized* text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the [Hugo](&lt;a href=&#34;https://gohugo.io&#34;&gt;https://gohugo.io&lt;/a&gt;) website!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/my-first-post/</guid>
+      <description>&lt;p&gt;Hi Guys im Taiga&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,37 @@
 baseURL = 'https://NFRcomehome.org/'
 languageCode = 'en-us'
-title = 'New Fizzer Republic'
-theme = 'ananke'
+theme = 'beautifulhugo-master'
+title = 'Taiga Momose'
+[params]
+  homeTitle = 'Taiga Momose'
+  subtitle = 'Engineering Physics Student at UBC'
+  logo = 'images/Selfie.jpg'
+  logoAlt = 'Taiga Momose'
+  customCSS = ["css/custom.css"]
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

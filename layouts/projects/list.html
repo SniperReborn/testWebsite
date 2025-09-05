@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="container mt-5">
+  <h1 class="text-center mb-4">{{ .Title }}</h1>
+  <div class="row">
+
+    {{ range .Pages }}
+    <div class="col-md-6 col-lg-4 mb-4">
+      <a href="{{ .RelPermalink }}" class="card h-100 shadow-sm text-decoration-none text-dark">
+        {{ with .Params.image }}
+        <img src="{{ . }}" class="card-img-top" alt="{{ $.Title }}">
+        {{ end }}
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ .Title }}</h5>
+          {{ with .Params.summary }}
+          <p class="card-text">{{ . }}</p>
+          {{ end }}
+        </div>
+      </a>
+    </div>
+    {{ end }}
+
+  </div>
+</div>
+{{ end }}
