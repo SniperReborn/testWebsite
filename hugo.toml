@@ -12,7 +12,7 @@ title = "Taiga's Portfolio"
   
   [params.author]
     name = "Taiga Momose"
-    website = "https://github.com/sniperreborn/testWebsite/"  # optional, your personal website
+    website = "https://sniperreborn.github.io/testWebsite/"  # optional, your personal website
 
     # Social links (these IDs must match social_icons.yml)
     linkedin = "https://www.linkedin.com/in/taiga-momose"

@@ -52,7 +52,6 @@
   justify-content: flex-end; /* push cards down to align bottoms */
 }
 
-
 .card-body {
   margin-top: auto; /* pushes title to bottom for alignment */
 }
