@@ -14,7 +14,7 @@
         </button>
         <ul class="dropdown-menu" aria-labelledby="relatedBlogsDropdown">
           {{ range . }}
-          <li><a class="dropdown-item" href="{{ .url }}">{{ .title }}</a></li>
+          <li><a class="dropdown-item" href="{{ .url | relURL}}">{{ .title }}</a></li>
           {{ end }}
         </ul>
       </div>
