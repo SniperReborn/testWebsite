@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taiga&#39;s Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/sniperreborn/testWebsite/</link>
     <description>Recent content on Taiga&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>https://instagram.com/yourusername (Taiga Momose)</managingEditor>
     <webMaster>https://instagram.com/yourusername (Taiga Momose)</webMaster>
     <lastBuildDate>Wed, 03 Sep 2025 19:49:04 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sniperreborn/testWebsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Second Post</title>
-      <link>http://localhost:1313/blog/my-second-post/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/blog/my-second-post/</link>
       <pubDate>Wed, 03 Sep 2025 19:49:04 -0700</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/blog/my-second-post/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/blog/my-second-post/</guid>
       <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;hi-guys-i-like-dogs&#34;&gt;Hi guys I like dogs.&lt;/h2&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/blog/my-first-post/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/blog/my-first-post/</link>
       <pubDate>Tue, 02 Sep 2025 19:49:04 -0700</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/blog/my-first-post/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/blog/my-first-post/</guid>
       <description>&lt;p&gt;Hi Guys im Taiga&lt;/p&gt;</description>
     </item>
     <item>
       <title>AME Group</title>
-      <link>http://localhost:1313/projects/ame/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/projects/ame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/projects/ame/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/ame/</guid>
       <description></description>
     </item>
     <item>
       <title>ENPH 253 Robot</title>
-      <link>http://localhost:1313/projects/enph-253/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/projects/enph-253/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/projects/enph-253/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/enph-253/</guid>
       <description></description>
     </item>
     <item>
       <title>ThunderBikes</title>
-      <link>http://localhost:1313/projects/thunderbikes/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/projects/thunderbikes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/projects/thunderbikes/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/thunderbikes/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Projects! on Taiga&#39;s Portfolio</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>http://localhost:1313/sniperreborn/testWebsite/projects/</link>
     <description>Recent content in My Projects! on Taiga&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>https://instagram.com/yourusername (Taiga Momose)</managingEditor>
     <webMaster>https://instagram.com/yourusername (Taiga Momose)</webMaster>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sniperreborn/testWebsite/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AME Group</title>
-      <link>http://localhost:1313/projects/ame/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/projects/ame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/projects/ame/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/ame/</guid>
       <description></description>
     </item>
     <item>
       <title>ENPH 253 Robot</title>
-      <link>http://localhost:1313/projects/enph-253/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/projects/enph-253/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/projects/enph-253/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/enph-253/</guid>
       <description></description>
     </item>
     <item>
       <title>ThunderBikes</title>
-      <link>http://localhost:1313/projects/thunderbikes/</link>
+      <link>http://localhost:1313/sniperreborn/testWebsite/projects/thunderbikes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>https://instagram.com/yourusername (Taiga Momose)</author>
-      <guid>http://localhost:1313/projects/thunderbikes/</guid>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/thunderbikes/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,4 +1,4 @@
-baseURL = 'https://sniperreborn.github.io/testWebsite/'
+baseURL = 'https://github.com/sniperreborn/testWebsite/'
 languageCode = 'en-us'
 theme = 'beautifulhugo-master'
 title = "Taiga's Portfolio"
