@@ -2,7 +2,7 @@
 
 title = 'AME Group'
 
-image = '/images/ROBOT.jpg'
+image = 'images/AMElogo.png'
 
 +++
 

@@ -2,7 +2,7 @@
 
 title = 'ThunderBikes'
 
-image = '/images/ROBOT.jpg'
+image = 'images/thunderbikes.png'
 
 +++
 

@@ -40,3 +40,19 @@
   font-size: 3rem;   /* logo inside circle */
   top: 0;            /* make sure it's centered inside the circle */
 }
+
+.row-equal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-equal > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* push cards down to align bottoms */
+}
+
+
+.card-body {
+  margin-top: auto; /* pushes title to bottom for alignment */
+}

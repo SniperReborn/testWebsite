@@ -12,11 +12,11 @@ title = "Taiga's Portfolio"
   
   [params.author]
     name = "Taiga Momose"
-    website = "https://yourwebsite.com"  # optional, your personal website
+    website = "https://github.com/sniperreborn/testWebsite/"  # optional, your personal website
 
     # Social links (these IDs must match social_icons.yml)
-    linkedin = "https://linkedin.com/in/yourusername"
-    email = "https://instagram.com/yourusername" # optional
+    linkedin = "https://www.linkedin.com/in/taiga-momose"
+    email = "mailto:taigasery78@gmail.com" # optional
 	
 	rss = true
 	disclaimerText = "All content on this site is my own work."
@@ -45,6 +45,12 @@ title = "Taiga's Portfolio"
     name = "Blog"
     url = "/blog/"
     weight = 4
+	
+  [[menu.main]]
+    identifier = "courses"
+    name = "Courses"
+    url = "/courses/"
+    weight = 5
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

@@ -1,20 +1,20 @@
 {{ define "main" }}
 <div class="container mt-5">
-  <div class="row">
+  <div class="row row-equal">
 
     {{ range .Pages }}
-    <div class="col-md-6 col-lg-4 mb-4">
-      <a href="{{ .RelPermalink }}" class="card h-100 shadow-sm text-decoration-none text-dark">
-        
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <a href="{{ .RelPermalink }}" class="card shadow-sm text-decoration-none text-dark flex-fill d-flex flex-column justify-content-end">
+
         <!-- ONLY wrap the image -->
         {{ with .Params.image }}
-        <div class="project-border-wrapper">
-          <img src="{{ . | absURL }}" class="card-img-top" alt="{{ $.Title }}">
+        <div class="project-border-wrapper mt-auto">
+          <img src="{{ . | absURL }}" class="card-img-bottom" alt="{{ $.Title }}">
         </div>
         {{ end }}
 
         <div class="card-body text-center">
-          <h1 class="card-title">{{ .Title }}</h1>
+          <h2 class="card-title">{{ .Title }}</h2>
           {{ with .Params.summary }}
           <p class="card-text">{{ . }}</p>
           {{ end }}
