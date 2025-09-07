@@ -1,10 +1,42 @@
-.blog-heading {
-    text-align: center !important;
+
+
+/* OUTER wrapper for project cards to show visible border */
+.project-border-wrapper {
+    border: 3px solid #333;       /* visible dark border */
+    border-radius: 10px;          /* rounded corners */
+    padding: 0px;                 /* spacing between border and card */
+    display: block;               /* ensures wrapper wraps card */
+    box-sizing: border-box;       /* include padding in width */
+    background: #fff;             /* ensures border shows against shadow */
+    margin-bottom: 1rem;          /* spacing between cards */
+	overflow: hidden; /* THIS makes the content clipped to border radius */
 }
 
-.col-lg-8.col-lg-offset-2,
-.col-md-10.col-md-offset-1 {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: none !important;
+/* Fix social icons in footer */
+.footer-social-icons ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  margin: 0 0.3rem;
+}
+
+/* Adjust the stacked icons */
+.footer-social-icons .fa-stack {
+  width: 5rem;      /* circle size */
+  height: 5rem;
+  line-height: 5rem;
+  vertical-align: middle; /* center vertically */
+}
+
+.footer-social-icons .fa-stack-2x {
+  font-size: 5rem;   /* black circle */
+}
+
+.footer-social-icons .fa-stack-1x {
+  font-size: 3rem;   /* logo inside circle */
+  top: 0;            /* make sure it's centered inside the circle */
 }

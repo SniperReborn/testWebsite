@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      <article role="main" class="blog-post">
+        {{ .Content }}
+      </article>
+
+      {{ with .Params.relatedblogs }}
+      <div class="mt-4 dropdown d-inline-block">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="relatedBlogsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Read Related Blogs
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="relatedBlogsDropdown" data-bs-popper="static">
+          {{ range . }}
+          <li><a class="dropdown-item" href="{{ .url }}">{{ .title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      <hr>
+
+    </div>
+  </div>
+</div>
+{{ end }}

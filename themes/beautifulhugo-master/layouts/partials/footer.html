@@ -1,29 +1,25 @@
-  {{ if eq .Type "page" }}
-    {{ partial "page_meta.html" . }}
-  {{ end }}
-  {{- if and (not (isset .Site.Params "author")) (isset .Site "author") -}}
-     {{ errorf "Please move [author] to [params.author]; Hugo has deprecated the former." }}
-  {{- end -}}
+{{ if eq .Type "page" }}
+  {{ partial "page_meta.html" . }}
+{{ end }}
+{{- if and (not (isset .Site.Params "author")) (isset .Site "author") -}}
+   {{ errorf "Please move [author] to [params.author]; Hugo has deprecated the former." }}
+{{- end -}}
+
 <footer>
   <div class="container">
-    {{ if .Site.Params.disclaimerText }}
+
+    <!-- Social/contact icons above text -->
     <div class="row">
-      <div class="disclaimer">
-        <b>Disclaimer:</b> {{ .Site.Params.disclaimerText }}
-      </div>
-    </div>
-    {{ end }}
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center footer-social-icons mb-2">
+        <ul class="list-inline">
           {{ range .Site.Data.beautifulhugo.social.social_icons }}
             {{- if isset $.Site.Params.author .id }}
               <li>
-		{{ if or ( hasPrefix ( index $.Site.Params.author .id ) "http://" ) ( hasPrefix ( index $.Site.Params.author .id ) "https://" ) }}
-		  <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf "%s" (index $.Site.Params.author .id) }}" title="{{ .title }}">
-		{{ else }}
-		  <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf .url (index $.Site.Params.author .id) }}" title="{{ .title }}">
-		{{ end }}
+                {{ if or ( hasPrefix ( index $.Site.Params.author .id ) "http://" ) ( hasPrefix ( index $.Site.Params.author .id ) "https://" ) }}
+                  <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf "%s" (index $.Site.Params.author .id) }}" title="{{ .title }}">
+                {{ else }}
+                  <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf .url (index $.Site.Params.author .id) }}" title="{{ .title }}">
+                {{ end }}
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
                     <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
@@ -45,7 +41,19 @@
           {{ end }}
           {{ end }}
         </ul>
-        <p class="credits copyright text-muted">
+      </div>
+    </div>
+
+    <!-- Footer text -->
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+        {{ if .Site.Params.disclaimerText }}
+        <div class="disclaimer mb-1">
+          <b>Disclaimer:</b> {{ .Site.Params.disclaimerText }}
+        </div>
+        {{ end }}
+
+        <p class="credits copyright text-muted mb-1">
           {{ if .Site.Params.author.name }}
             {{ if .Site.Params.author.website }}
               <a href="{{ .Site.Params.author.website }}">{{ .Site.Params.author.name }}</a>
@@ -66,16 +74,44 @@
             <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
           {{ end }}
         </p>
-        <!-- Please don't remove this, keep my open source work credited :) -->
-        <p class="credits theme-by text-muted">
+
+        <p class="credits theme-by text-muted mb-0">
           {{ i18n "poweredBy" . | safeHTML }}
           {{ if $.GitInfo }}&nbsp;&bull;&nbsp;[<a href="{{ .Site.Params.commit }}{{ .GitInfo.Hash }}">{{ substr .GitInfo.Hash 0 8 }}</a>]{{ end }}
         </p>
       </div>
     </div>
+
   </div>
 </footer>
 
+<style>
+.footer-social-icons ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  margin: 0 0.3rem;
+}
+
+.footer-social-icons i {
+  font-size: 1.2rem;
+}
+
+.disclaimer {
+  font-size: 0.85rem;
+}
+
+.credits {
+  font-size: 0.85rem;
+  margin: 0.25rem 0;
+}
+</style>
+
+<!-- keep all your scripts below as in your original file -->
 {{- if .Site.Params.selfHosted -}}
 <script defer src="{{ "js/katex.min.js" | absURL }}"></script>
 <script defer src="{{ "js/auto-render.min.js" | absURL }}" onload="renderMathInElement(document.body);"></script>
@@ -106,68 +142,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
 {{- end -}}
 <script src="{{ "js/load-photoswipe.js" | absURL }}"></script>
-
-<!-- Google Custom Search Engine -->
-{{ if .Site.Params.gcse }}
-<script>
-  (function() {
-    var cx = '{{ .Site.Params.gcse }}';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-{{ end }}
-
-{{ if .Site.Params.piwik }}
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://{{ .Site.Params.piwik.server }}/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", "{{ .Site.Params.piwik.id }}"]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript>
-<!-- Piwik Image Tracker -->
-<img src="http://{{ .Site.Params.piwik.server }}/piwik.php?idsite={{ .Site.Params.piwik.id }}&amp;rec=1" style="border:0" alt="" />
-<!-- End Piwik -->
-</noscript>
-<!-- End Piwik Code -->
-{{ end }}
-
-
-{{ if and .Site.Params.delayDisqus .Site.Config.Services.Disqus.Shortname }}
-<!-- Delayed Disqus -->
-<script type="text/javascript">
-$(function(){
-  $('#show-comments').on('click', function(){
-    var disqus_shortname = '{{ .Site.Config.Services.Disqus.Shortname }}';
-      
-    (function() {
-      var disqus = document.createElement('script'); 
-      disqus.type = 'text/javascript'; 
-      disqus.async = true;
-      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
-    })();
-      
-    $(this).hide(); 
-    });
-  });
-      
-</script>
-<script id="dsq-count-scr" src="//{{ .Site.Config.Services.Disqus.Shortname }}.disqus.com/count.js" async></script>
-<!-- End Delayed Disqus -->
-{{ end }}
-
-{{- partial "footer_custom.html" . }}

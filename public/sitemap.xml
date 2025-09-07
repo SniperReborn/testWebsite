@@ -14,8 +14,16 @@
     <loc>http://localhost:1313/blog/my-first-post/</loc>
     <lastmod>2025-09-02T19:49:04-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/ame/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/enph-253/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/thunderbikes/</loc>
   </url>
 </urlset>

@@ -1,13 +1,26 @@
 baseURL = 'https://NFRcomehome.org/'
 languageCode = 'en-us'
 theme = 'beautifulhugo-master'
-title = 'Taiga Momose'
+title = "Taiga's Portfolio"
 [params]
   homeTitle = 'Taiga Momose'
   subtitle = 'Engineering Physics Student at UBC'
   logo = 'images/Selfie.jpg'
   logoAlt = 'Taiga Momose'
   customCSS = ["css/custom.css"]
+  mainSections = ["blog"]
+  
+  [params.author]
+    name = "Taiga Momose"
+    website = "https://yourwebsite.com"  # optional, your personal website
+
+    # Social links (these IDs must match social_icons.yml)
+    linkedin = "https://linkedin.com/in/yourusername"
+    email = "https://instagram.com/yourusername" # optional
+	
+	rss = true
+	disclaimerText = "All content on this site is my own work."
+	
 [menu]
   [[menu.main]]
     identifier = "home"
@@ -24,7 +37,7 @@ title = 'Taiga Momose'
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
-    url = "/resume/"
+    url = "/ResumeV11.pdf"
     weight = 3
 
   [[menu.main]]
