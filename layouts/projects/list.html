@@ -9,7 +9,7 @@
         <!-- ONLY wrap the image -->
         {{ with .Params.image }}
         <div class="project-border-wrapper">
-          <img src="{{ . }}" class="card-img-top" alt="{{ $.Title }}">
+          <img src="{{ . | absURL }}" class="card-img-top" alt="{{ $.Title }}">
         </div>
         {{ end }}
 

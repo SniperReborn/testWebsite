@@ -1,12 +1,12 @@
 +++
 title = "ENPH 253 Robot"
-image = "/images/ROBOT.jpg"
+image = "images/ROBOT.jpg"
 
 [[relatedblogs]]
 title = "Design Process"
-url = "/blog/my-first-post/"
+url = "blog/my-first-post/"
 
 [[relatedblogs]]
 title = 'Testing & Iteration'
-url = "/blog/my-second-post/"
+url = "blog/my-second-post/"
 +++
