@@ -2,6 +2,7 @@ baseURL = 'https://github.com/sniperreborn/testWebsite/'
 languageCode = 'en-us'
 theme = 'beautifulhugo-master'
 title = "Taiga's Portfolio"
+
 [params]
   homeTitle = 'Taiga Momose'
   subtitle = 'Engineering Physics Student at UBC'
