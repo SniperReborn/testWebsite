@@ -20,7 +20,12 @@ title = "Taiga's Portfolio"
 	
 	rss = true
 	disclaimerText = "All content on this site is my own work."
-	
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+	  
 [menu]
   [[menu.main]]
     identifier = "home"
@@ -51,6 +56,7 @@ title = "Taiga's Portfolio"
     name = "Courses"
     url = "/courses/"
     weight = 5
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
