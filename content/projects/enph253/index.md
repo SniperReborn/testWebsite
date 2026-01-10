@@ -192,7 +192,7 @@ This architecture provided a compact, motor-driven turret solution that maintain
 ---
 <div style="display:flex; gap:1rem;">
   <img src="ArmMountCAD.png" alt="Image 1" style="width:50%;">
-  <img src="mountiterations.jpg" alt="Image 2" style="width:50%;">
+  <img src="mountIterations.jpg" alt="Image 2" style="width:50%;">
 </div>
 
 ###### Arm mounting architecture in CAD (left) | Hardboard iterations (right)
