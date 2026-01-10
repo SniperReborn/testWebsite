@@ -3,7 +3,17 @@ title = 'My courses!'
 
 +++
 ## Year 3
-#### Currently taking (Term 1):
+#### Currently taking (Term 2):
+| Code  | Description |
+|:------:|:------:|
+|CPEN 312|Digital Systems and Microcomputers| 
+|MECH 280|Fluid Mechanics|
+|ENPH 353|A.I. Competition Project|
+|PHYS 304|Quantum Mechanics|
+|PHYS 350|Classical Mechanics|
+|MATH 305|Applied Complex Analysis|
+
+#### Term 1:
 | Code  | Description |
 |:------:|:------:|
 |APSC 278|Engineering Materials| 
@@ -12,6 +22,7 @@ title = 'My courses!'
 |MECH 325|Machine Design|
 |MECH 463|Mechanical Vibrations|
 |MATH 307|Applied Linear Algebra|
+|ELEC 221|Introduction Signals and Systems|
 
 -----
 

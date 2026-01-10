@@ -14,7 +14,9 @@
 
       <title>ENPH 253 Robot - Taiga Momose</title>
 
-  <meta name="description" content="This summer I took ENPH 253. In this class we were tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.
+  <meta name="description" content="This summer I took ENPH 253. In this class we were assembled into teams of 4 and tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.
+At the end of the course, each team would compete against eachother to see who could save the most stuffed animals.
+
 
 
 
@@ -24,7 +26,11 @@
     
     
   
-">
+
+
+(The finished robot)
+
+As part of a 4-man team, I was involved with the mechanical design of the robot. I designed and manufactured the chassis, robot claw, arm mount, and helped design the arm shoulder piece.">
   <meta name="author" content="Taiga Momose"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -73,9 +79,9 @@
     "name" : "Taiga Momose"
   },
   "headline": "ENPH 253 Robot",
-  "description" : "This summer I took ENPH 253. In this class we were tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.\n",
+  "description" : "This summer I took ENPH 253. In this class we were assembled into teams of 4 and tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point. At the end of the course, each team would compete against eachother to see who could save the most stuffed animals.\n(The finished robot) As part of a 4-man team, I was involved with the mechanical design of the robot. I designed and manufactured the chassis, robot claw, arm mount, and helped design the arm shoulder piece.\n",
   "inLanguage" : "en",
-  "wordCount":  35 ,
+  "wordCount":  1505 ,
   "datePublished" : "0001-01-01T00:00:00\u002b00:00",
   "dateModified" : "0001-01-01T00:00:00\u002b00:00",
   "image" : "http:\/\/localhost:1313\/sniperreborn\/testWebsite\/images\/Selfie.jpg",
@@ -96,7 +102,9 @@
 
 
 <meta property="og:title" content="ENPH 253 Robot" />
-<meta property="og:description" content="This summer I took ENPH 253. In this class we were tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.
+<meta property="og:description" content="This summer I took ENPH 253. In this class we were assembled into teams of 4 and tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.
+At the end of the course, each team would compete against eachother to see who could save the most stuffed animals.
+
 
 
 
@@ -106,14 +114,18 @@
     
     
   
-">
+
+
+(The finished robot)
+
+As part of a 4-man team, I was involved with the mechanical design of the robot. I designed and manufactured the chassis, robot claw, arm mount, and helped design the arm shoulder piece.">
 <meta property="og:image" content="http://localhost:1313/sniperreborn/testWebsite/images/ROBOT.jpg" />
 <meta property="og:url" content="http://localhost:1313/sniperreborn/testWebsite/projects/enph253/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Taiga&#39;s Portfolio" />
 
   <meta name="twitter:title" content="ENPH 253 Robot" />
-  <meta name="twitter:description" content="This summer I took ENPH 253. In this class we were tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point. …">
+  <meta name="twitter:description" content="This summer I took ENPH 253. In this class we were assembled into teams of 4 and tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them …">
   <meta name="twitter:image" content="http://localhost:1313/sniperreborn/testWebsite/images/ROBOT.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.149.0">
@@ -300,7 +312,9 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
       <article role="main" class="blog-post">
-        <p>This summer I took ENPH 253. In this class we were tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.</p>
+        <p>This summer I took ENPH 253. In this class we were assembled into teams of 4 and tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.
+At the end of the course, each team would compete against eachother to see who could save the most stuffed animals.</p>
+<hr>
 
 <link rel="stylesheet" href="http://localhost:1313/sniperreborn/testWebsite/css/hugo-easy-gallery.css" />
 <div class="box" style="max-width:400">
@@ -312,6 +326,144 @@
   </figure>
 </div>
 
+<h6 id="the-finished-robot">(The finished robot)</h6>
+<hr>
+<p>As part of a 4-man team, I was involved with the mechanical design of the robot. I designed and manufactured the chassis, robot claw, arm mount, and helped design the arm shoulder piece.</p>
+<p>We used OnShape to design our robot since it enabled for easy us to collaborate with eachother, and using it we produced all the drawings and STL files required to manufacture the robot.</p>
+<h1 id="the-chassis">THE CHASSIS</h1>
+<hr>
+<p><strong>Design inputs</strong></p>
+<p>When designing the chassis, we came up with two main design requirements that it had to meet. The chassis needed to be structurally robust enough to withstand frequent crashes during the software
+test phase, and it needed to be modular to accomodate the arm, box, and PCB&rsquo;s which did not have their sizes finalized yet.</p>
+<p>The drivetrain would be integrated into the chassis design and consisted of two 76 RPM 2 N⋅m DC motors which, at a wheel diameter of 3.5&quot;, provided a top speed of 1.3 km/h  — capable of traversing
+the course in 9 seconds. To keep the drivetrain simple, the wheels were mounted in a direct-drive configuration thanks to the high torque and reasonable speed provided by the motors.</p>
+<hr>
+<div style="display:flex; gap:1rem;">
+  <img src="bareChassisCAD.png" alt="Image 1" style="width:50%;">
+  <img src="chassisRearExplode.png" alt="Image 2" style="width:50%;">
+</div>
+<h6 id="bare-chassis-left--drivetrain-assembly-right">Bare chassis (left) | Drivetrain assembly (right)</h6>
+<hr>
+<p><strong>Design solution</strong></p>
+<p>To meet these constraints, I designed an aluminum C-channel chassis (as seen above). The aluminum maximized strength without suffering from a weight penalty thanks to the powerful motors, and
+could be machined quickly and easily with tools in our machine shop. The C-channel geometry allowed the chassis to act as both a structural frame and a mounting system for the motor shafts
+and robot subsystems.</p>
+<p>The chassis consists of two parallel aluminum C-channels joined by water-jetted aluminum front and rear plates. The channels serve as the primary mounting rails for the arm assembly, PCB&rsquo;s, and
+auxiliary systems.</p>
+<p>The front plate provides additional mounting points for electronics and the enclosure, whilst the rear plate is elevated above the channels using aluminum spacers, allowing
+the drive motors to be mounted beneath it such that the output shafts align with the horizontal centerline of the channels.</p>
+<p>The channels were oriented downward so that motor shafts could be
+supported by both channel walls, improving axle support and reducing backlash.</p>
+<p>The output shafts of the motors were far too short to traverse the ¾&quot; C-channels that we were able to source, so shaft adapters needed to be machined to connect them to another shaft that would
+attach to the wheels.</p>
+<hr>
+<img src="IMG_0015.jpg" alt="My Robot" style="height: 525px; width: 800px; display: block; margin: 0 auto;">
+<h6 id="fully-assembled-chassis-with-pcbs">Fully assembled chassis with PCB&rsquo;s</h6>
+<hr>
+<p><strong>PCB integration</strong></p>
+<p>A critical part of our robot is the PCB&rsquo;s. The robot needed two H-bridge circuits to control the motors and a breakout board to accomodate the ESP32. The boards were large and needed to be easily
+accessible for wiring and repair purposes. Of particular importance was the breakout board, which the electrical team assessed needed to be taken out of the robot frequently.</p>
+<p>To meet these
+requirements, I devised a mounting scheme where the H-bridges would be stacked on top of eachother with custom made plastic standoffs, with the breakout board mounted underneath the chassis using
+a latch system allowing for easy detatchment.</p>
+<p>The latch system requires the board to be attatched on top of a plate with legs which slide into a passive mount on one side and two latches that are rotated into place to secure the whole assembly.
+This allowed for the electrical team to diagnose and fix issues with the board quickly during testing, which saved us precious time in the hours leading up to competition.</p>
+<hr>
+<div style="display:flex; gap:1rem;">
+  <img src="breakoutBoardV1.png" alt="Image 1" style="width:50%;">
+  <img src="H-Bridges.png" alt="Image 2" style="width:50%;">
+</div>
+<h6 id="breakout-board-mounting-left--h-bridge-mounting-right">Breakout board mounting (left) | H-bridge mounting (right)</h6>
+<hr>
+<h1 id="the-claw">THE CLAW</h1>
+<hr>
+<p><strong>Design inputs:</strong></p>
+<p>The claw needed to meet the following requirements to be successful:</p>
+<ol>
+<li>Have minimum opening width of atleast 4&quot; to allow pets to be grasped at the head when the neck is blocked by obstructions.</li>
+<li>Weigh less than 300 grams.</li>
+<li>Be as compact as possible to fit in confined spaces between obstacles and the pets.</li>
+<li>Must be serviceable, with the actuation servos needing to be easily accessible and replaceable.</li>
+<li>Accomodate the space necessary for a LiDAR sensor and magnetometer for pet detection.</li>
+</ol>
+<p>The claw mounting geometry was constrained by the arm interface, which was made in collaboration with my teammates. Multiple claw iterations were thus developed within these constraints.</p>
+<p><strong>1st Design Solution:</strong></p>
+<p>The first claw iteration used two MG90S micro servos which each independently actuating one claw arm. A four-bar linkage was used to ensure the claw arms remained parallel throughout
+actuation to enable the us to grab pets from inside a tube, while allowing a maximum opening width exceeding the 4-inch requirement.</p>
+<p>The MG90S servos were selected primarily for their low mass. Using two micro servos still resulted in a lower overall mass than a single larger MG996 servo, while also eliminating
+the need for gears. This allowed the four-bar linkages to be connected directly to the servo horns, simplifying the mechanical design.</p>
+<hr>
+<div style="display:flex; gap:1rem;">
+  <img src="ClawV1Diagram.png" alt="Image 1" style="width:60%;">
+  <img src="clawV1gif.gif" alt="Image 2" style="width:40%;">
+</div>
+<h6 id="first-iteration-in-cad-left--actuation-of-the-claw-right">First iteration in CAD (left) | Actuation of the claw (right)</h6>
+<hr>
+<p>However, there were issues with this design. The MG90S servos proved to be too unreliable during testing and failed often. This wasted valuable time and effort, disrupting the software development
+process significantly.</p>
+<p><strong>2nd Design Solution:</strong></p>
+<p>To improve reliability, the claw was redesigned around a single MG996 servo, which required the implementation of a gear reduction system due to its increased size and mass constraints.
+The servo and gear baseplate was laser-cut from Delrin to minimize manufacturing time while maintaining sufficient strength and stiffness. Components requiring complex geometry, such as the arm
+mounting interface, were still 3D printed.</p>
+<p>This new design effectively separated the modular subassemblies that could be attatched and detatched: the baseplate housing the servo and gears, and the arm mount. This modularity allowed for the
+mount geometry to change without requiring a full dissassembly of the claw, and it also reduced repair turnaround times since during testing, the claw breaking the mount now only required that
+component to be reprinted and attatched without hassle.</p>
+<p>The driven gear was attached to the MG996 servo horn and featured multiple mounting holes for the four-bar linkage. A large central clearance hole was incorporated to allow a Phillips screwdriver to
+access the servo mounting screws, enabling quick servo replacement. A bottom retention plate was added to prevent gear splaying under load.</p>
+<hr>
+<div style="display:flex; gap:1rem;">
+  <img src="ClawV2Diagram.png" alt="Image 1" style="width:50%;">
+  <img src="ClawBottomV2.png" alt="Image 2" style="width:50%;">
+</div>
+<h6 id="second-iteration-in-cad-left--bottom-retention-plate-right">Second iteration in CAD (left) | Bottom retention plate (right)</h6>
+<hr>
+<p>Initial designs allocated space for both a magnetometer and LiDAR. Testing later showed that LiDAR alone was sufficient, allowing the magnetometer to be removed and the LiDAR mount to be lowered. This
+change further improved claw compactness. Lastly, The claw arms were laser-cut from Delrin for rapid fabrication and included mounting holes for interchangeable finger sleeves. TPU grip inserts were
+added to increase friction and improve grasp reliability.</p>
+<hr>
+<h1 id="the-arm-mount">THE ARM MOUNT</h1>
+<hr>
+<p><strong>Design inputs:</strong></p>
+<p>The arm mount was designed to integrate an arm and turret architecture with the robot while meeting packaging, actuation, and structural requirements. Key design inputs included:</p>
+<ol>
+<li>The arm base needed to be positioned 2&quot; above the chassis.</li>
+<li>The design had to accommodate the motor, mounting hardware, and electronics enclosure within a limited footprint.</li>
+<li>The mount needed sufficient structural stiffness to withstand arm loads and impacts during testing.</li>
+<li>The turret rotation needed to be smooth and repeatable with minimal backlash.</li>
+</ol>
+<p><strong>Design Solution:</strong></p>
+<p>To meet these requirements, I designed a geared turret mount using a lazy susan bearing to support rotation and arm loads.</p>
+<p>The arm base bolts to an internal gear, which is driven by a pinion gear connected to a stepper motor. The internal gear is rigidly attached to a lazy susan bearing, allowing the turret to rotate
+while supporting axial and radial loads. The lazy susan is mounted to an arm mounting plate, which interfaces directly with the chassis.</p>
+<p>This architecture provided a compact, motor-driven turret solution that maintained structural stiffness while allowing smooth and repeatable rotation.</p>
+<hr>
+<div style="display:flex; gap:1rem;">
+  <img src="ArmMountCAD.png" alt="Image 1" style="width:50%;">
+  <img src="mountiterations.jpg" alt="Image 2" style="width:50%;">
+</div>
+<h6 id="arm-mounting-architecture-in-cad-left--hardboard-iterations-right">Arm mounting architecture in CAD (left) | Hardboard iterations (right)</h6>
+<hr>
+<p><strong>Iteration:</strong></p>
+<p>Finalizing the arm mounting plate required multiple design iterations to determine optimal placement for the stepper motor, structural supports, and turret angle potentiometer. To enable rapid
+iteration, I fabricated successive versions of the mounting plate using laser-cut hardboard, allowing quick validation of fit, alignment, and assembly.</p>
+<p>During testing, axial backlash was observed in the lazy susan bearing. To eliminate this, I designed and 3D-printed a TPU slip ring that fit within the bearing’s internal clearances. When lightly
+greased, the slip ring removed axial play without increasing friction or causing seizure of the lazy susan.</p>
+<p>Once the geometry was validated, the final mounting plate was water-jetted from aluminum, resulting in a rigid, durable component that integrated cleanly with the turret, motor, and arm assembly
+without requiring rework.</p>
+<hr>
+
+
+<div class="box" style="max-width:400">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="builtArmMount.jpg" alt="My Robot"/>
+    </div>
+    <a href="builtArmMount.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h6 id="fully-built-arm-mount">Fully built arm mount</h6>
+<hr>
 
       </article>
 
