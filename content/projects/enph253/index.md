@@ -93,7 +93,7 @@ This allowed for the electrical team to diagnose and fix issues with the board q
 
 <div style="display:flex; gap:1rem;">
   <img src="breakoutBoardV1.png" alt="Image 1" style="width:50%;">
-  <img src="H-Bridges.png" alt="Image 2" style="width:50%;">
+  <img src="H-bridges.png" alt="Image 2" style="width:50%;">
 </div>
 
 ###### Breakout board mounting (left) | H-bridge mounting (right)
