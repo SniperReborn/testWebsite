@@ -10,25 +10,18 @@
     <webMaster>mailto:taigasery78@gmail.com (Taiga Momose)</webMaster>
     <atom:link href="http://localhost:1313/sniperreborn/testWebsite/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AME Group</title>
-      <link>http://localhost:1313/sniperreborn/testWebsite/projects/ame/</link>
+      <title>Battery Pack Coldplate</title>
+      <link>http://localhost:1313/sniperreborn/testWebsite/projects/coldplate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mailto:taigasery78@gmail.com (Taiga Momose)</author>
-      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/ame/</guid>
-      <description></description>
+      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/coldplate/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;OVERVIEW&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This year I was assigned as the cooling subteam lead on UBC Thunderbikes, and my main task was to evaluate whether active cooling was necessary for the battery packs on our electric racing motorbike.&lt;/p&gt;&#xA;&lt;p&gt;This was done using MATLAB to create an electro-thermal model of the 21700 cells used on the bike as well as a single-cell thermal FEA analysis using MATLAB&amp;rsquo;s PDE Toolbox to assess temperature rise,&#xA;and ANSYS to do a full battery pack thermal simulation to estimate the thermal load and required coolant flow rate to maintain safe temperature.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ENPH 253 Robot</title>
       <link>http://localhost:1313/sniperreborn/testWebsite/projects/enph253/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mailto:taigasery78@gmail.com (Taiga Momose)</author>
       <guid>http://localhost:1313/sniperreborn/testWebsite/projects/enph253/</guid>
-      <description>&lt;p&gt;This summer I took ENPH 253. In this class we were assembled into teams of 4 and tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.&#xA;At the end of the course, each team would compete against eachother to see who could save the most stuffed animals.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/sniperreborn/testWebsite/css/hugo-easy-gallery.css&#34; /&gt;&#xA;&lt;div class=&#34;box&#34; style=&#34;max-width:400&#34;&gt;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;ROBOT.jpg&#34; alt=&#34;My Robot&#34;/&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;a href=&#34;ROBOT.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h6 id=&#34;the-finished-robot&#34;&gt;(The finished robot)&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;As part of a 4-man team, I was involved with the mechanical design of the robot. I designed and manufactured the chassis, robot claw, arm mount, and helped design the arm shoulder piece.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ThunderBikes</title>
-      <link>http://localhost:1313/sniperreborn/testWebsite/projects/thunderbikes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mailto:taigasery78@gmail.com (Taiga Momose)</author>
-      <guid>http://localhost:1313/sniperreborn/testWebsite/projects/thunderbikes/</guid>
-      <description></description>
+      <description>&lt;p&gt;This summer I took ENPH 253. In this class we were assembled into teams of 4 and tasked with building a fully autonomous robot to navigate through a course and pick up stuffed animals and return them to our start point.&#xA;At the end of the course, each team would compete against eachother to see who could save the most stuffed animals.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;box&#34; style=&#34;max-width:400&#34;&gt;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;ROBOT.jpg&#34; alt=&#34;My Robot&#34;/&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;a href=&#34;ROBOT.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h6 id=&#34;the-finished-robot&#34;&gt;(The finished robot)&lt;/h6&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;As part of a 4-man team, I was involved with the mechanical design of the robot. I designed and manufactured the chassis, robot claw, arm mount, and helped design the arm shoulder piece.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
