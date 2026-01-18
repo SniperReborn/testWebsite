@@ -70,6 +70,4 @@ to do a single-cell thermal FEA to determine whether or not the cells would exce
 The cell exceeded 60°C regularly between a variety of initial conditions (20°C - 30°C). This result showed that active cooling may still be required to meet the requirements of the bike, which was
 later validated by the ANSYS simulation.
 
-# FULL PACK ANALYSIS 
-
 ---
