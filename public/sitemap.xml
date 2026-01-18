@@ -3,13 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/sniperreborn/testWebsite/</loc>
-    <lastmod>2025-09-03T19:49:04-07:00</lastmod>
+    <lastmod>2025-09-02T19:49:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/sniperreborn/testWebsite/blog/</loc>
-    <lastmod>2025-09-03T19:49:04-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/sniperreborn/testWebsite/blog/my-second-post/</loc>
-    <lastmod>2025-09-03T19:49:04-07:00</lastmod>
+    <lastmod>2025-09-02T19:49:04-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/sniperreborn/testWebsite/blog/my-first-post/</loc>
     <lastmod>2025-09-02T19:49:04-07:00</lastmod>

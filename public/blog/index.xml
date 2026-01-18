@@ -8,21 +8,14 @@
     <language>en-us</language>
     <managingEditor>mailto:taigasery78@gmail.com (Taiga Momose)</managingEditor>
     <webMaster>mailto:taigasery78@gmail.com (Taiga Momose)</webMaster>
-    <lastBuildDate>Wed, 03 Sep 2025 19:49:04 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 19:49:04 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/sniperreborn/testWebsite/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Second Post</title>
-      <link>http://localhost:1313/sniperreborn/testWebsite/blog/my-second-post/</link>
-      <pubDate>Wed, 03 Sep 2025 19:49:04 -0700</pubDate><author>mailto:taigasery78@gmail.com (Taiga Momose)</author>
-      <guid>http://localhost:1313/sniperreborn/testWebsite/blog/my-second-post/</guid>
-      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;hi-guys-i-like-dogs&#34;&gt;Hi guys I like dogs.&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
+      <title>My First Post - Introduction</title>
       <link>http://localhost:1313/sniperreborn/testWebsite/blog/my-first-post/</link>
       <pubDate>Tue, 02 Sep 2025 19:49:04 -0700</pubDate><author>mailto:taigasery78@gmail.com (Taiga Momose)</author>
       <guid>http://localhost:1313/sniperreborn/testWebsite/blog/my-first-post/</guid>
-      <description>&lt;p&gt;Hi Guys im Taiga&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hey everyone! Welcome to my portfolio/personal website. I plan on using this place to showcase my projects, coursework, and some random blogs for all to see! I originally wanted to make my own website&#xA;completely from scratch, but struggled with my limited HTML/CSS skills to make one in time for the school term.&lt;/p&gt;&#xA;&lt;p&gt;I was instead recommended Hugo by my friends and was able to get this site up and running&#xA;within a day. I modified the template to include a separate page for projects and courses, and with that out of the way my next goal is to write about all the projects I&amp;rsquo;ve worked on recently!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

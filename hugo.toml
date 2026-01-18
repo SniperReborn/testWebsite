@@ -43,7 +43,7 @@ title = "Taiga's Portfolio"
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
-    url = "ResumeV11.pdf"
+    url = "resume.pdf"
     weight = 3
 
   [[menu.main]]
